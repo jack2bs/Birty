@@ -27,7 +27,7 @@
 #include "PID.h"
 #include "Usart.h"
 
-extern FILE USBSerialStream;
+// extern FILE USBSerialStream;
 int g_diff = 0;				// Debugging
 
 int main(void)

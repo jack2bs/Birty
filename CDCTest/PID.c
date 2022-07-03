@@ -218,7 +218,7 @@ void avoidWallsForward()
 	int fr_r = getDistSensorDist(FRONT_RIGHT_INDEX);
 	int fr_l = getDistSensorDist(FRONT_LEFT_INDEX);
 	
-	if (fr_r < 40 || fr_l < 40)
+	if (fr_r < 55 || fr_l < 55)
 	{
 		stopMoving();
 		return;

@@ -1986,10 +1986,10 @@ void avoidWallsForward()
      d1c:	90 e0       	ldi	r25, 0x00	; 0
      d1e:	0e 94 4b 11 	call	0x2296	; 0x2296 <getDistSensorDist>
 	
-	if (fr_r < 40 || fr_l < 40)
-     d22:	a8 97       	sbiw	r28, 0x28	; 40
+	if (fr_r < 55 || fr_l < 55)
+     d22:	e7 97       	sbiw	r28, 0x37	; 55
      d24:	14 f0       	brlt	.+4      	; 0xd2a <avoidWallsForward+0x26>
-     d26:	88 97       	sbiw	r24, 0x28	; 40
+     d26:	c7 97       	sbiw	r24, 0x37	; 55
      d28:	1c f4       	brge	.+6      	; 0xd30 <avoidWallsForward+0x2c>
 	{
 		stopMoving();
@@ -3131,7 +3131,7 @@ ISR(TIMER3_COMPA_vect)
 
 00001292 <main>:
 
-extern FILE USBSerialStream;
+// extern FILE USBSerialStream;
 int g_diff = 0;				// Debugging
 
 int main(void)
