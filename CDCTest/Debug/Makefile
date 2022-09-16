@@ -427,392 +427,392 @@ LINKER_SCRIPT_DEP+=
 ./DCMotor.o: .././DCMotor.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./Encoder.o: .././Encoder.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./ExtInt.o: .././ExtInt.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./I2CInstruction.o: .././I2CInstruction.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./Millis.o: .././Millis.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./Minimu9V5.o: .././Minimu9V5.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./PID.o: .././PID.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./I2C.o: .././I2C.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./ShiftReg.o: .././ShiftReg.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./Stepper.o: .././Stepper.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./Test.o: .././Test.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./Descriptors.o: .././Descriptors.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/Board/Temperature.o: ../LUFA/Drivers/Board/Temperature.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/Peripheral/AVR8/Serial_AVR8.o: ../LUFA/Drivers/Peripheral/AVR8/Serial_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/Peripheral/AVR8/TWI_AVR8.o: ../LUFA/Drivers/Peripheral/AVR8/TWI_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/Peripheral/XMEGA/Serial_XMEGA.o: ../LUFA/Drivers/Peripheral/XMEGA/Serial_XMEGA.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/Peripheral/XMEGA/TWI_XMEGA.o: ../LUFA/Drivers/Peripheral/XMEGA/TWI_XMEGA.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Common/HIDParser.o: ../LUFA/Drivers/USB/Class/Common/HIDParser.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Device/AudioClassDevice.o: ../LUFA/Drivers/USB/Class/Device/AudioClassDevice.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Device/CCIDClassDevice.o: ../LUFA/Drivers/USB/Class/Device/CCIDClassDevice.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Device/CDCClassDevice.o: ../LUFA/Drivers/USB/Class/Device/CDCClassDevice.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Device/HIDClassDevice.o: ../LUFA/Drivers/USB/Class/Device/HIDClassDevice.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Device/MassStorageClassDevice.o: ../LUFA/Drivers/USB/Class/Device/MassStorageClassDevice.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Device/MIDIClassDevice.o: ../LUFA/Drivers/USB/Class/Device/MIDIClassDevice.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Device/PrinterClassDevice.o: ../LUFA/Drivers/USB/Class/Device/PrinterClassDevice.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Device/RNDISClassDevice.o: ../LUFA/Drivers/USB/Class/Device/RNDISClassDevice.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/AndroidAccessoryClassHost.o: ../LUFA/Drivers/USB/Class/Host/AndroidAccessoryClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/AudioClassHost.o: ../LUFA/Drivers/USB/Class/Host/AudioClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/CDCClassHost.o: ../LUFA/Drivers/USB/Class/Host/CDCClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/HIDClassHost.o: ../LUFA/Drivers/USB/Class/Host/HIDClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/MassStorageClassHost.o: ../LUFA/Drivers/USB/Class/Host/MassStorageClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/MIDIClassHost.o: ../LUFA/Drivers/USB/Class/Host/MIDIClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/PrinterClassHost.o: ../LUFA/Drivers/USB/Class/Host/PrinterClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/RNDISClassHost.o: ../LUFA/Drivers/USB/Class/Host/RNDISClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Class/Host/StillImageClassHost.o: ../LUFA/Drivers/USB/Class/Host/StillImageClassHost.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o: ../LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o: ../LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o: ../LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o: ../LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o: ../LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o: ../LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/Template/Template_Endpoint_Control_R.o: ../LUFA/Drivers/USB/Core/AVR8/Template/Template_Endpoint_Control_R.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/Template/Template_Endpoint_Control_W.o: ../LUFA/Drivers/USB/Core/AVR8/Template/Template_Endpoint_Control_W.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/Template/Template_Endpoint_RW.o: ../LUFA/Drivers/USB/Core/AVR8/Template/Template_Endpoint_RW.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/Template/Template_Pipe_RW.o: ../LUFA/Drivers/USB/Core/AVR8/Template/Template_Pipe_RW.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o: ../LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o: ../LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/ConfigDescriptors.o: ../LUFA/Drivers/USB/Core/ConfigDescriptors.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/DeviceStandardReq.o: ../LUFA/Drivers/USB/Core/DeviceStandardReq.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/Events.o: ../LUFA/Drivers/USB/Core/Events.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/HostStandardReq.o: ../LUFA/Drivers/USB/Core/HostStandardReq.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Drivers/USB/Core/USBTask.o: ../LUFA/Drivers/USB/Core/USBTask.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 LUFA/Platform/UC3/InterruptManagement.o: ../LUFA/Platform/UC3/InterruptManagement.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./Usart.o: .././Usart.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./VirtualSerial.o: .././VirtualSerial.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./VL6180XDist.o: .././VL6180XDist.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DARCH=AVR8 -DF_CPU=16000000 -DF_USB=F_CPU -DBOARD=BOARD_NONE  -I"C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../LUFA"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
@@ -827,7 +827,7 @@ LUFA/Platform/UC3/InterruptManagement.o: ../LUFA/Platform/UC3/InterruptManagemen
 LUFA/Platform/UC3/Exception.o: ../LUFA/Platform/UC3/Exception.S
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU Assembler : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE) -Wa,-gdwarf2 -x assembler-with-cpp -c -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -I "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include"  -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)" -Wa,-g   -o "$@" "$<" 
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE) -Wa,-gdwarf2 -x assembler-with-cpp -c -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4" -I "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\include"  -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)" -Wa,-g   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
@@ -849,13 +849,13 @@ all: $(OUTPUT_FILE_PATH) $(ADDITIONAL_DEPENDENCIES)
 $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP) $(LIB_DEP) $(LINKER_SCRIPT_DEP)
 	@echo Building target: $@
 	@echo Invoking: AVR/GNU Linker : 5.4.0
-	$(QUOTE)M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) -Wl,-Map="AdafruitDistTest1.map" -Wl,--start-group -Wl,-lm  -Wl,--end-group -Wl,--gc-sections -mmcu=atmega32u4 -B "M:\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4"  
+	$(QUOTE)C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) -Wl,-Map="AdafruitDistTest1.map" -Wl,--start-group -Wl,-lm  -Wl,--end-group -Wl,--gc-sections -mmcu=atmega32u4 -B "C:\Studio 7\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega32u4"  
 	@echo Finished building target: $@
-	"M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures  "AdafruitDistTest1.elf" "AdafruitDistTest1.hex"
-	"M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -j .eeprom  --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0  --no-change-warnings -O ihex "AdafruitDistTest1.elf" "AdafruitDistTest1.eep" || exit 0
-	"M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objdump.exe" -h -S "AdafruitDistTest1.elf" > "AdafruitDistTest1.lss"
-	"M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O srec -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures "AdafruitDistTest1.elf" "AdafruitDistTest1.srec"
-	"M:\AtmelStudio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-size.exe" "AdafruitDistTest1.elf"
+	"C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures  "AdafruitDistTest1.elf" "AdafruitDistTest1.hex"
+	"C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -j .eeprom  --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0  --no-change-warnings -O ihex "AdafruitDistTest1.elf" "AdafruitDistTest1.eep" || exit 0
+	"C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objdump.exe" -h -S "AdafruitDistTest1.elf" > "AdafruitDistTest1.lss"
+	"C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O srec -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures "AdafruitDistTest1.elf" "AdafruitDistTest1.srec"
+	"C:\Studio 7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-size.exe" "AdafruitDistTest1.elf"
 	
 	
 

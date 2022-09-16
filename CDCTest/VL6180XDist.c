@@ -40,7 +40,7 @@ Anyway gl with that future Jack
 
 static int g_distances[NUM_OF_DIST_SENSORS] = {0};
 
-int getDistSensorDist(int index)
+inline int getDistSensorDist(int index)
 {
 	return g_distances[index];
 }
