@@ -91,5 +91,5 @@ The second short circuit occurred when I plugged in the IMU wrong. Fortunately, 
 # Finally
 Here are some pictures of Birty in my dorm room this year. Building Birty proved to me that when engineering is done right, it can be smooth and highly effective, which only reinforced just how beautiful this stuff can really be!
 
-![Birty Picture 1](BirtyPic1.jpeg)
-![Birty Picture 2](BirtyPic2.jpeg)
+![Birty Picture 1](BirtyPic1.jpg)
+![Birty Picture 2](BirtyPic2.jpg)
