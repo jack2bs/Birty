@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BirtyParts)(type Legacy)(uri ${KIPRJMOD}/BirtyParts.lib)(options "")(descr ""))
+  (lib (name Birty-rescue)(type Legacy)(uri ${KIPRJMOD}/Birty-rescue.lib)(options "")(descr ""))
+)
