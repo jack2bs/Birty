@@ -12,7 +12,7 @@ My success building Birty came on the back of the shortcomings of past projects,
 
 + Microcontroller
 	+ 1 x [ATMEGA32u4](https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA32U4-AUR/2238241)
-	+ The Atmega32u4 is more than powerful enough for the tasks laid out, and since I had experience with it, this was a no-brainer. An I2C bus (using the TWI peripheral) for sensor communications, USART for debugging over bluetooth, GPIO for driving motors, pin change interrupts for reading encoders, and more than enough timers for task scheduling.
+	+ The Atmega32u4 is more than powerful enough for the tasks laid out, and since I had experience with it and had some in my supplies (every MCU was out of stock at the time), this was a no-brainer. An I2C bus (using the TWI peripheral) for sensor communications, USART for debugging over bluetooth, GPIO for driving motors, pin change interrupts for reading encoders, and more than enough timers for task scheduling.
 + Distance Sensors
 	+ 8 x [Adafruit VL6180x](https://www.adafruit.com/product/3316)
 	+ The VL6180x from STM was a good choice because it has great accuracy at low distance ranges which is extremely important for obstacle detection and avoidance for a robot of Birty's size. I chose the 6180x over other sensors in the lineup since it is the only one with a register map available, allowing me to bypass STM's poorly regarded API and simply build an I2C communication layer myself. I chose the Adafruit breakouts so that I wouldn't have to make them myself, and so that I had logic level shifting from 5v to 3.3v on both the interrupt and xshut signal lines.
